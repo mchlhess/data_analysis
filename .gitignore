@@ -1,2 +1,4 @@
 train/
 .DS_Store
+nn.py
+hw2.ipynb

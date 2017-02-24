@@ -18,3 +18,9 @@ def load_clinical_eeg_data(datapath, sub):
   return alldata.iloc[:].as_matrix(), eegevents, names
 
 matrix, eegchunks, chan_name = load_clinical_eeg_data('', 'chb01')
+print eegchunks
+
+import sklearn.preprocessing
+import sklearn.pca
+
+pca = PCA()
